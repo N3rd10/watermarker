@@ -32,6 +32,7 @@
     watermark.style.opacity = '0.5'; // Adjust opacity for visibility
     watermark.style.pointerEvents = 'none'; // Prevent interaction with the watermark
     watermark.style.whiteSpace = 'nowrap'; // Prevent text wrapping
+    watermark.style.zIndex = '9999'; // Keeps watermark above all content
 
     // Append the watermark to the body
     document.body.appendChild(watermark);
